@@ -39,12 +39,34 @@ namespace ovning1till5
             Console.WriteLine("mata in ditt efternamn:");
             string efternamn = Console.ReadLine();
             Console.WriteLine("Hej!" + " " + fornamn +" " + efternamn + "!"); 
-            */ 
+          
 
 
             //Övning3
+            Console.WriteLine("mata in grander i celsius: ");
+            string graderC = Console.ReadLine();
+            double graderF = double.Parse(graderC);
+
+            Console.WriteLine("Det blir"+ " " + (graderF * 1.8 +32 ) + "grader i Farenheit");
+
+   
 
 
+            //övning4
+            Console.Write("mata in grander i celsius: ");
+            string graderC = Console.ReadLine();
+            double graderF = double.Parse(graderC);
+
+            Console.WriteLine("Det blir" + " " + (graderF * 1.8 + 32) + "grader i Farenheit");
+
+            */
+            //övning5
+            Console.Write("Cirkelns radie: ");
+            string radie = Console.ReadLine();
+            double tall = int.Parse(radie);
+
+            Console.WriteLine("Area " + (tall * tall * 3.14159265359));
+            Console.WriteLine("Omkrets: " + (tall * 2 * 3.14159265359)); 
 
 
         }
