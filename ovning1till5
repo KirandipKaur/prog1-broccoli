@@ -1,0 +1,52 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ovning1till5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+             //Övning 1
+
+            Console.WriteLine("mata in tal 1:");
+            string tal1 = Console.ReadLine();
+            int nummer1 = int.Parse(tal1);  
+
+
+
+            Console.WriteLine("mata in tal 2:");
+            string tal2 = Console.ReadLine();
+            int nummer2 = int.Parse(tal2);
+
+            Console.WriteLine("summa:" + (nummer1 + nummer2));
+            Console.WriteLine("produkten:" + nummer1 * nummer2);
+            Console.WriteLine("divition:" + nummer1 / nummer2);
+            Console.WriteLine("Tryck på valfri knapp för att förtsätta...");
+            Console.ReadKey(); 
+            
+
+
+
+            //Övning2
+            Console.WriteLine("mata in ditt förnamn:");
+            string fornamn = Console.ReadLine();
+            
+            Console.WriteLine("mata in ditt efternamn:");
+            string efternamn = Console.ReadLine();
+            Console.WriteLine("Hej!" + " " + fornamn +" " + efternamn + "!"); 
+            */ 
+
+
+            //Övning3
+
+
+
+
+        }
+    }
+}
