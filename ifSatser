@@ -1,0 +1,115 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ifSatserOvning1Till5
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /* Console.Write("skriv in mönster djup:");
+            string inamata = Console.ReadLine();
+            double x = double.Parse(inamata);
+
+
+
+            if (x > 1.6)
+            {
+                Console.WriteLine("Olagliga däck!");
+            }
+
+            else
+            {
+                Console.WriteLine("lagligt");
+            }
+
+    
+
+
+                //Övning 2
+
+                Console.Write("Matta in ålder:");
+                string ovning2 = Console.ReadLine();
+                double y = double.Parse(ovning2);
+
+
+            
+
+
+                if ( 0<= y && y <= 12)
+                {
+                    Console.WriteLine("vitt");
+                }
+
+                if (13 <= y && y <= 18)
+                {
+                    Console.WriteLine("grönt");
+                }
+
+                if (19 <= y && y <= 25)
+                {
+                    Console.WriteLine("rött");
+                }
+
+                if (26 <= y && y <= 99)
+                {
+                    Console.WriteLine("blåt");
+                }
+                
+                if (0 > y && y >99 )
+                {
+                    Console.WriteLine("ogiltig ålder");
+
+                } 
+
+            //övning3
+
+         
+            Console.Write("Matta in tall1:");
+            string ovming3 = Console.ReadLine();
+            int z = int.Parse(ovming3);
+
+            Console.Write("Matta in tall2:");
+            string ovming3a = Console.ReadLine();
+            int c = int.Parse(ovming3a);
+
+
+
+            if (z > c )
+            {
+                Console.WriteLine("tall 1 är större ");
+            }
+
+            if (z < c )
+            {
+                Console.WriteLine("tallet 2 är större");
+            }
+
+            if ( z == c )
+            {
+                Console.WriteLine("tallen är lika");
+            }
+
+       */
+
+            // övning 4
+
+            Console.Write("Matta in tal delbart med 7:");
+            string ovning4 = Console.ReadLine();
+            int b = int.Parse(ovning4);
+
+
+
+
+            if (( b % 7) ==
+
+
+
+
+        }
+    }
+    }
+
