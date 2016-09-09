@@ -1,0 +1,73 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+/* switchSatser övningr från csharpskolan 
+ * kiran 9 sept
+ */
+
+namespace switchSatsen
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+
+            /*  Console.WriteLine("skriv ett heltal "); 
+
+              int tal = int.Parse(Console.ReadLine());
+              switch (tal)
+              {
+                  case 1: Console.WriteLine("ett");    break;
+                  case 2: Console.WriteLine("två");    break;
+                  case 3: Console.WriteLine("tre");    break;
+                  case 4: Console.WriteLine("fyra");   break;
+                  default:
+                  Console.WriteLine("Ogiltigt svar");  break; 
+                      */
+
+
+
+
+            Console.WriteLine("mata in en bokstav");
+            string bokstav;
+            bokstav = Console.ReadLine();
+
+            switch (bokstav)
+            {
+                case "N":
+                    Console.WriteLine("you ealk north");
+                    break;
+                case "s":
+                    Console.WriteLine("toy travel south");
+                    break;
+                case "E":
+                    Console.WriteLine("you wander east");
+                    break;
+                case "W":
+                    Console.WriteLine("fyra");
+                    break;
+
+                default:
+                    Console.WriteLine("I don´t understand");
+                    break;
+
+
+
+
+
+
+                
+
+            }
+
+
+
+        }
+
+    }
+} 
+    
+
