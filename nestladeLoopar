@@ -1,0 +1,81 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+//lestlade loopar; loopar i lopar
+//spelbannor
+
+
+namespace nestladeLoopar
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Övning 1
+
+            /*
+            for (int y = 0; y < 10; y++)
+            {
+             for (int x = 0; x < 5; x++)
+             {
+                  
+                  Console.Write("o#");
+               }
+              Console.WriteLine();
+              Console.WriteLine();
+              Console.WriteLine();
+              
+            
+             //Övning 2
+              char sign;
+        
+                for (int y = 0; y < 10; y++)
+                  {
+                for (int x = y; x < 10+y; x++)
+                  {
+                    if (x % 2 == 0) 
+                        sign = 'o';
+                        
+                    else
+                    sign = '#';
+                        Console.Write(sign);
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine();
+            */
+
+
+            //Övning 3
+            for (int y = 0; y < 10; y++)
+            {
+                for( int i = y; i <10; i++)
+                {
+                    Console.Write('#');
+                    
+                }
+                Console.WriteLine();
+                Console.WriteLine(); 
+            }
+
+            //övning 4
+            for( int y = 0; y <10; y++)
+            {
+                for( int i = y; i <10; 1++)
+                {
+
+                }
+            }
+
+
+            
+
+
+
+        }
+
+    }
+
+}
