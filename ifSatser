@@ -10,106 +10,148 @@ namespace ifSatserOvning1Till5
     {
         static void Main(string[] args)
         {
-            /* Console.Write("skriv in mönster djup:");
-            string inamata = Console.ReadLine();
-            double x = double.Parse(inamata);
+            /*
+            //Övning 1
 
+            Console.WriteLine("Ange Mönsterdjup: ");
+            string inmatat = Console.ReadLine();
+            double x = double.Parse(inmatat); 
 
-
-            if (x > 1.6)
+            if (x < 1.6)
             {
-                Console.WriteLine("Olagliga däck!");
+                Console.WriteLine("Olagliga däck!"); 
             }
 
             else
             {
-                Console.WriteLine("lagligt");
-            }
-
-    
-
-
-                //Övning 2
-
-                Console.Write("Matta in ålder:");
-                string ovning2 = Console.ReadLine();
-                double y = double.Parse(ovning2);
+                Console.WriteLine("Lagliga däck!"); 
+            } 
+          
 
 
+
+
+            //övning 2
+            Console.WriteLine("Mata in din ålder :");
+            string inmata = Console.ReadLine();
+            double x = double.Parse(inmata); 
             
+            if ( x <= 12 && x>= 0)
+            {
+                Console.WriteLine("Färg: vit."); 
+            }
+
+            if ( x >= 13 && x <= 18)
+            {
+                Console.WriteLine("Färg: grön.");
+            }
+
+            if (x >= 19 && x <= 25)
+            {
+                Console.WriteLine("Färg: röd.");
+            }
+
+            if (x >= 26 && x <= 99)
+            {
+                Console.WriteLine("Färg: blå.");
+            }
+
+            else
+            {
+                Console.WriteLine("ogiltig ålder");
+            }
+             
 
 
-                if ( 0<= y && y <= 12)
-                {
-                    Console.WriteLine("vitt");
-                }
+            //övning 3
 
-                if (13 <= y && y <= 18)
-                {
-                    Console.WriteLine("grönt");
-                }
+            Console.WriteLine("Mata in tal 1: ");
+            string inmatat1;
+            inmatat1 = Console.ReadLine();
+            double x = double.Parse(inmatat1); 
 
-                if (19 <= y && y <= 25)
-                {
-                    Console.WriteLine("rött");
-                }
+            Console.WriteLine("Mata in tal 2: ");
+            string inmatat2;
+            inmatat2 = Console.ReadLine();
+            double y = double.Parse(inmatat2);
 
-                if (26 <= y && y <= 99)
-                {
-                    Console.WriteLine("blåt");
-                }
-                
-                if (0 > y && y >99 )
-                {
-                    Console.WriteLine("ogiltig ålder");
+            if( x > y )
+            {
+                Console.WriteLine("tal 1 var större " + x); 
+            }
 
-                } 
+            else
+            {
+                Console.WriteLine("tal 2 var större " + y);
+            }
 
-            //övning3
 
+
+
+            Console.WriteLine("Mata in tal 1: ");
+            string inmatat3;
+            inmatat3 = Console.ReadLine();
+            double a = double.Parse(inmatat3);
+
+            Console.WriteLine("Mata in tal 2: ");
+            string inmatat4;
+            inmatat4 = Console.ReadLine();
+            double b = double.Parse(inmatat4);
+
+            if (a > b)
+            {
+                Console.WriteLine("tal 1 var större " + a);
+            }
+
+            else
+            {
+                Console.WriteLine("tal 2 var större " + b);
+            }
+
+
+
+
+            Console.WriteLine("Mata in tal 1: ");
+            string inmatat6;
+            inmatat6 = Console.ReadLine();
+            double k = double.Parse(inmatat6);
+
+            Console.WriteLine("Mata in tal 2: ");
+            string inmatat7;
+            inmatat7 = Console.ReadLine();
+            double o = double.Parse(inmatat7);
+
+            if (k > o)
+            {
+                Console.WriteLine("tal 1 var större " + k);
+            }
+
+            else
+            {
+                Console.WriteLine("tal 2 var större " + o);
+            }
+             */
+
+
+            //övning4
+            Console.WriteLine("mata in ett tal: ");
          
-            Console.Write("Matta in tall1:");
-            string ovming3 = Console.ReadLine();
-            int z = int.Parse(ovming3);
+            int x = int.Parse(Console.ReadLine()); 
 
-            Console.Write("Matta in tall2:");
-            string ovming3a = Console.ReadLine();
-            int c = int.Parse(ovming3a);
-
-
-
-            if (z > c )
+            if (x % 7 != 0)
             {
-                Console.WriteLine("tall 1 är större ");
+                Console.WriteLine("Talet är ej jämt delbart med 7 ");
             }
 
-            if (z < c )
+            else
             {
-                Console.WriteLine("tallet 2 är större");
+                Console.WriteLine("Talet är jämt delbart med 7"); 
             }
-
-            if ( z == c )
-            {
-                Console.WriteLine("tallen är lika");
-            }
-
-       */
-
-            // övning 4
-
-            Console.Write("Matta in tal delbart med 7:");
-            string ovning4 = Console.ReadLine();
-            int b = int.Parse(ovning4);
-
-
-
-
-            if (( b % 7) ==
-
 
 
 
         }
     }
     }
+
 
