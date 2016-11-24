@@ -1,0 +1,47 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace strängFormatering
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            //Övning 1
+            DateTime dt = DateTime.Today;
+            Console.WriteLine(dt.ToString("d"));
+            Console.WriteLine();
+
+            //Övning 2
+            int i = 4;
+            Console.WriteLine("{0:0.0000}", Math.PI * i * i);
+            Console.WriteLine();
+
+            //Övning 3
+            int tal = 1000000000;
+            Console.WriteLine("{0:0,0}", 1000000000);
+            Console.WriteLine();
+
+            //Övning 4
+            double value = 123.00;
+       
+            Console.WriteLine(value.ToString("\\#\\#\\# " + value +  " kroner och \\0\\0 öre \\#\\#\\#"));
+            Console.WriteLine();
+
+            //Övning 5
+            Console.WriteLine("Mata in fullständigt personnummer utan mellanslag");
+            string inmata = Console.ReadLine();
+            decimal in1 = decimal.Parse(inmata);
+            Console.WriteLine("{0:#### ## ## ####}", in1);
+             
+        
+        
+
+
+
+        }
+    }
+}
