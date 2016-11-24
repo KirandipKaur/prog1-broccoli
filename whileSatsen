@@ -1,0 +1,199 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace whileSatsen
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            /*
+
+            //övning1
+
+            int i = 0;
+            while (i < 100)
+            {
+                i++;
+                Console.WriteLine(i);
+            }
+            
+ 
+
+            //övning2
+        
+            string losen = string.Empty;
+
+            while (losen != "password")
+            {
+                Console.WriteLine("Mata in korrekt lösenord för att fortsätta");
+                losen = Console.ReadLine();
+                
+            }
+
+            Console.WriteLine("Rätt lösenord");
+
+
+
+            while (true)
+                            {
+                Console.Write("Skriv in ditt lösenord: ");
+                string password = Console.ReadLine();
+                
+                             if (password == "kr")
+                                    {
+                    Console.WriteLine("Välkommen!");
+                    break;
+                                    }
+
+                
+                                else
+                 {
+                   Console.WriteLine("Du skrev fel lösenord!");
+                                   }
+               
+                             }
+              
+
+            // Övming 1.2
+
+            int i = 1;
+            while (i <= 100)
+            {
+                i++;
+                Console.WriteLine(i); 
+            }
+            Console.ReadLine(); 
+           
+
+            //Övning 2.2
+
+            int i = 10;
+            while (i >= 1)
+            {
+                i--;
+                Console.WriteLine(i); 
+            }
+            Console.ReadLine(); 
+             
+
+            //övning3.2
+
+            int i = 12; 
+            while( i>1)
+            {
+                i++;
+                Console.WriteLine("Cause Fuck Life"); 
+            }
+             
+
+            //Övning4.2
+
+            
+                while (true)
+               {
+
+
+                int i = 22;
+
+
+                Console.WriteLine("gissa ett tal mellan 1 oxh 100!: ");
+                int x = int.Parse(Console.ReadLine());
+
+
+
+
+                if (x > i)
+                {
+                    Console.WriteLine("Tallet är fan för högt");
+                }
+
+                if(x < i)
+                {
+                    Console.WriteLine("talet är fan för lågt");
+                }
+
+                if( x==i)
+                {
+                    Console.WriteLine("RÄTT");
+                }
+
+                }
+
+
+            //Övning5.2
+           
+
+            int x = 0;
+            int y = 1;
+
+            while( y <1000000)
+            {
+                Console.Write(" " + y);
+                x = x + y;
+
+                Console.WriteLine(" " + x);
+                y = y + x; 
+            }
+           
+
+
+            //Övning6.2
+            int years = -1;
+             
+            Console.WriteLine("Ange saldo (kr): ");
+            int x = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Ange ränta (%): ");
+            int z = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("Ange mål (kr): ");
+            int y = int.Parse(Console.ReadLine()); 
+
+            while( x <= y)
+            {
+                x = x * (1 + (z/100));
+
+                years++; 
+            }
+
+            Console.WriteLine("Det tog" + years + "år inan saldot nådde" + y); 
+
+             */
+
+            //Övning7.2
+
+        
+
+             int x = 2016;
+            while(x < 2050)
+            {
+                Console.WriteLine(x + " är ett skottår!");
+                x = x + 4;
+            }
+
+            int thisYear = DateTime.Now.Year;
+            while (thisYear++ < 2050)
+            {
+                if (DateTime.IsLeapYear(thisYear))
+                    Console.WriteLine(thisYear + " är ett skottår");
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+            }
+        }      
+}
+ 
