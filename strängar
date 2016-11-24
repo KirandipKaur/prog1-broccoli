@@ -1,0 +1,66 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Stränger
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {  /*
+
+            //Övning 1
+            Console.WriteLine("\u0056\u00E4\u0157\u006D\u0064\u00F6\u0020\u0067\u0079"); 
+            
+
+            //Övnin2
+            Console.WriteLine("\" Hello World\"");
+          
+
+            //Övning3
+            string hw = "Hello World"; 
+
+            Console.WriteLine(hw.ToUpper());
+            Console.WriteLine(hw.ToLower());
+            
+
+            //Övning4
+            string hw = "Hello World";
+            Console.WriteLine("texten innehåler " + hw.Length + "tecken"); 
+          
+
+            //Övning5
+            Console.WriteLine("skriv in en text: ");
+            string inamtat = Console.ReadLine();
+
+            for (int i = inamtat.Length - 1; i >= 0; i--)
+            {
+                Console.WriteLine(inamtat[i]);
+            }
+           
+
+            //Övning6
+            string minText = "{0} elefant{1} balanserade på en liten liten spindeltråååd.\n"
+                                    + "Det tyckte {2} var så intressant,\n"
+                                    + "så {2} gick och hämtade en annan elefant.\n";
+
+            string finalText = string.Format(minText, "En", " ", "han");
+            Console.WriteLine(finalText); 
+
+            for( int i = 1; i<10; i++)
+            {
+                finalText = string.Format(minText, ++i, "er", "de");
+                Console.WriteLine(finalText); 
+            }
+            */
+
+            Console.WriteLine("\nDecimaler:\t3\t2\t1");
+            string format = "\t\t{0:0.000}\t{0:0.00}\t{0:0.0}"; //TAB TAB {0} TAB {0} TAB {0}
+
+            string text = string.Format(format, Math.E);
+            Console.WriteLine(text + "\n");
+        }
+    }
+}
